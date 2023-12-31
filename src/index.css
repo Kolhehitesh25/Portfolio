@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;0,600;0,800;0,900;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap");
+
+@layer base {
+  html,
+  body {
+    @apply font-[Raleway];
+    overflow-x: hidden;
+    margin: 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  }
+  li {
+    @apply px-5;
+    @apply cursor-pointer;
+
+    @apply hover:text-[#27E1C1];
+  }
+}
+.image {
+  border-radius: 30%;
+  width: 30%;
+  margin-left: 70px;
+  position: "relative";
+  margin-top: -90px;
+}
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 230px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    rgba(198, 40, 140, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
+.whats {
+  position: relative;
+}
+.whatsapp {
+  margin-left: 390px;
+  position: absolute;
+}
+
+.c {
+  /* background: linear-gradient(to right, #114357, #f29492);   */
+  /* background: linear-gradient(to right, #16222a, #3a6073); */
+  /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e);  */
+  /* background: linear-gradient(to right, #dc2424, #4a569d);  */
+  /* background: linear-gradient(to right, #000000, #434343); */
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.d:hover {
+  background-color: #ff2171;
+}
+
+@media only screen and (max-width: 500px) {
+  .show1 {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .show {
+    margin-left: 380px;
+  }
+}
