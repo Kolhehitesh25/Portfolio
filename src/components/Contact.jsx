@@ -52,23 +52,18 @@ function Contact() {
           name="message"
           rows="10"
         ></textarea>
-        <div className="flex ">
+        <div className="flex">
           <button className="text-white border-2 rounded-lg whats hover:scale-110 duration:50 d hover:border-pink-600 px-2  py-3 my-6 mx-auto flex items-center">
             Let's Collaborate
           </button>
 
           <a
-            className=" pt-8 whatsapp show hover:scale-110"
+            className="lg:hidden pt-8 whatsapp show hover:scale-110"
             href={`https://wa.me/${encodedPhoneNumber}`}
           >
             <SiWhatsapp size={35} color={"#25D366"} />
           </a>
         </div>
-        {/* <div className='md:hidden flex  gap-3 fex-row justify-center items-center '> 
-<a  className="hover:scale-125 duration-500 " href="https://github.com/Kolhehitesh25" ><FaGithub size={50} color={"white"} /></a>
-
-<a  className="hover:scale-125 duration-500  bg-white" href="https://linkedin.com/in/hitesh-kolhe-86aab0210"><FaLinkedin size={50} color={"blue"}/></a>
-</div> */}
       </form>
     </div>
   );

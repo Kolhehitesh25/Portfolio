@@ -21,7 +21,7 @@
 }
 .image {
   border-radius: 30%;
-  width: 30%;
+  width: 35%;
   margin-left: 70px;
   position: "relative";
   margin-top: -90px;
@@ -42,7 +42,6 @@
   position: relative;
 }
 .whatsapp {
-  margin-left: 390px;
   position: absolute;
 }
 
@@ -66,6 +65,6 @@
 }
 @media only screen and (min-width: 300px) {
   .show {
-    margin-left: 380px;
+    margin-left: 270px;
   }
 }

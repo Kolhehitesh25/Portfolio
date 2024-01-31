@@ -12,7 +12,7 @@ AOS.init();
 
 function Home() {
   return (
-    <div name="home" className=" c pt-24 w-full h-screen">
+    <div name="home" className=" c pt-[-14] w-full h-screen">
       {/* container */}
 
       <div
@@ -20,7 +20,7 @@ function Home() {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         data-aos-duration="3000"
-        className="max-w-[1000px]  mx-auto px-3  flex flex-col items-center md:flex-row justify-center h-full "
+        className="max-w-[1000px]  mx-auto px-2  flex flex-col items-center md:flex-row justify-center h-full "
       >
         <div>
           <p className="text-[#AD1C42]  pt-6 mx-1 text-2xl font-semibold">
@@ -29,7 +29,7 @@ function Home() {
           <h1 className="text-4xl sm:text-7xl pt-2 font-bold text-[#efefef]">
             Hitesh Kolhe
           </h1>
-          <h2 className="  text-xl sm:text-7xl pt-2 font-bold text-[#bcbc6b] ">
+          <h2 className="  text-xl sm:text-7xl pt-4  font-bold text-[#bcbc6b] ">
             {/* I'm <span className="M text-yellow-400">MERN</span> Stack Developer. */}
 
             <Typewriter
@@ -41,13 +41,13 @@ function Home() {
             />
           </h2>
 
-          <p className="text-[#8992b0] text-xl py-4 max-w-[700px]">
+          <p className="text-[#8992b0] text-xl py-4 mt-4 max-w-[700px]">
             🤝 Welcome to my portfolio! .This portfolio shows about me well in a
             world of 💻 computer science.
           </p>
 
           <div>
-            <button className="text-white shadow-md group  d border-2 px-6 py-3 my-2 flex items-center  hover:border-pink-600  ">
+            <button className="text-white shadow-md group  d border-2 px-6 py-3 my-2 mt-5 flex items-center  hover:border-pink-600  ">
               <Link to="work" smooth={true} duration={500}>
                 Portfolio
               </Link>
